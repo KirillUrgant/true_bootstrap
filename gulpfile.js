@@ -24,7 +24,9 @@ var paths = {
 gulp.task('less', function () {
     return gulp.src(paths.less)
         .pipe(less({
-            paths: ['node_modules/bootstrap/less']
+            paths: [
+                'node_modules'
+            ]
         }))
         .pipe(gulp.dest(dst.css))
         .pipe(browserSync.stream());

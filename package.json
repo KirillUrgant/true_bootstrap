@@ -4,6 +4,7 @@
   "description": "test",
   "devDependencies": {
     "bootstrap": "^3.3.7",
+    "bootswatch": "^3.3.7",
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",

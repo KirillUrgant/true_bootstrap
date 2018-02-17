@@ -1,4 +1,4 @@
-#Test bootstrap static pack
+# Test bootstrap static pack
 
 ```bash
 cd project_dir
